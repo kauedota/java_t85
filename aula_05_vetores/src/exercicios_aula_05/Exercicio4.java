@@ -24,7 +24,7 @@ public class Exercicio4 {
             double soma = 0;
 
             for (int coluna = 0; coluna < matriz[linha].length; coluna++) {
-                soma += matriz[linha][coluna];
+                soma = soma + matriz[linha][coluna];
             }
 
             vetor[linha] = soma / 4;
