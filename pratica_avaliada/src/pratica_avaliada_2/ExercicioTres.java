@@ -25,7 +25,8 @@ public class ExercicioTres {
         System.out.print("Digite o nome do produto que deseja atualizar: ");
         String nomeBusca = leia.nextLine();
         boolean encontrado = false;
-
+        
+    // Size - significa "quantos produtos tem na lista "estoque""    
         for (int contador = 0; contador < estoque.size(); contador++) {
             String produto = estoque.get(contador);
 
